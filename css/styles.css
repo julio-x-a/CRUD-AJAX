@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+header {
+    text-align: center;
+    background-color: #4E5BE0;
+    color: #fff;
+    overflow: hidden;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-form {
+    /* background-color: violet; */
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.crud-form input,
+.crud-form textarea {
+    min-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.btn-submit {
+    background-color: #4E5BE0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    border: outset 3px #4E5BE0;
+}
+
+.btn-submit:hover {
+    background-color: #4451DF;
+    border: outset 3px #4451DF;
+}
+.btn-submit:active {
+    border: inset 3px #4E5BE0;
+}
+
+textarea {
+    resize: none;
+}
+
+/* .footer {
+    background-color: #000;
+    color: white;
+    min-height: 100px;
+} */
