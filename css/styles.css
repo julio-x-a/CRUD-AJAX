@@ -33,15 +33,15 @@ header {
 }
 
 .container-form {
-    /* background-color: violet; */
-    width: 50%;
+    /* width: 50%; */
     margin: auto;
+    width: min-content;
     text-align: center;
 }
 
 .crud-form input,
 .crud-form textarea {
-    min-width: 50%;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -53,8 +53,8 @@ header {
     background-color: #4E5BE0;
     color: #fff;
     border: none;
-    border-radius: 5px;
-    border: outset 3px #4E5BE0;
+    border-radius: 20px;
+    border: 3px outset #4E5BE0;
 }
 
 .btn-submit:hover {
@@ -74,3 +74,14 @@ textarea {
     color: white;
     min-height: 100px;
 } */
+
+::selection {
+    background: #4E5BE0;
+    color: #fff;
+}
+
+/* ::-webkit-scrollbar{
+    color: #E0D34E;
+} */
+
+
